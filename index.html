@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+    rel="stylesheet">
+   
+    <title>Encriptador challengue</title>
+</head>
+
+<body>
+    <h1>Encriptador y Desencriptador De Texto</h1>
+    <header>
+        <img class="logo" src="Imagenes/Logo.jpg" alt="logo" />
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedorcajatexto">
+                <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Imagenes/alerta.jpg" alt="alerta" />
+                <p>solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="contenedor-botones">
+                <input type="button" class="btn-encriptador" value="ENCRIPTAR" />
+                <input type="button" class="btn-desencriptador" value="DESENCRIPTAR" />
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedorhumano">
+                <img src="Imagenes/Muneco.jpg" alt="humano" />
+            </div>
+            <div class="contenedor-parrafo">
+                <h3>Ningun mensaje fue <br />encontrado</h3>
+                <p>Ingresa el texto que deseas Encriptar o <br />Desencriptar.</p>
+            </div>
+            
+            <div class="contenedor-resultado">
+                <P class="texto-resultado"></P>
+            </div>
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="COPIAR" />
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="final">
+            <div class="mano"> &#x1F44D</div>
+            <h3>Realizado por Julinho</h3>
+            <div class="corazon">&#10084;</div>
+        </section>
+    </footer>
+    <script src="scrip.js"></script>
+</body>
+</html>
